@@ -26,8 +26,8 @@
         default() {
           return [
             {
-              price: 10,
-              count: 1
+              price: 0,
+              count: 0
             }
           ];
         }
@@ -45,7 +45,7 @@
       totalPrice() {
         let total = 0;
         this.selectFoods.forEach((food) => {
-          total = food.price * food.count;
+          total += food.price * food.count;
         });
         return total;
       },
