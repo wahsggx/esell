@@ -57,7 +57,7 @@
         transition: all 0.4s linear
         transform: rotate(0)
       &.fadeRotate-enter-active, &.fadeRotate-leave-active
-        transform : tranlate3D(0, 0, 0)
+        transform: tranlate3D(0, 0, 0)
       &.fadeRotate-enter, &.fadeRotate-leave
         opacity: 0
         transform: tanslate3D(24px, 0, 0)
